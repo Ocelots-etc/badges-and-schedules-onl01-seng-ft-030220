@@ -1,4 +1,6 @@
+
 def badge_maker(name)
+  # hosting a conference and need to print badges for speakers
   "Hello, my name is #{name}."
 end
 
