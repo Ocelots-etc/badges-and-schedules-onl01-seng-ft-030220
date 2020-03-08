@@ -1,10 +1,11 @@
 
 def badge_maker(name)
-  # hosting a conference and need to print badges for speakers
+# hosting a conference and need to print badges for speakers
   "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(attendees)
+#
   attendees.collect do |name|
   badge_maker(name)
  end
